@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Jenkins Demo">
+    <test name="Demo  test">
+        <classes>
+            <class name="testcase.Code"></class>
+        </classes>
+    </test>
+</suite>
