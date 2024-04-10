@@ -17,6 +17,13 @@ pipeline {
                             }
         }
 
+        stage('QA') {
+                                    steps {
+                        //                 bat "mvn -D clean test"
+                                            echo "I am QA Testing"
+                                    }
+                }
+
     }
 
    }
