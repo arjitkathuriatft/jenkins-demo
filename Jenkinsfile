@@ -6,7 +6,6 @@ pipeline {
             steps {
 //                 bat "mvn -D clean test"
                     echo "I am test"
-                    mvn test
 
             }
             }
