@@ -6,7 +6,6 @@ pipeline {
             steps {
 //                 bat "mvn -D clean test"
                     echo "I am test"
-                    cd "/Users/arjitkathuria/Desktop/Repo/jenkins-slenium-demo/jenkins-demo"
                     mvn test
 
             }
