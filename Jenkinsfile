@@ -7,6 +7,7 @@ pipeline {
 //                 bat "mvn -D clean test"
                     echo "I am test"
             }
+            }
 
             stage('Deploy') {
                             steps {
@@ -17,4 +18,4 @@ pipeline {
 
     }
 
-     }
+   }
